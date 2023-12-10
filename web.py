@@ -13,7 +13,7 @@ def predict(age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak,
     return prediction
 
 # Streamlit App
-st.title('Heart Disease Prediction App')
+st.title('Cardiovascular Disease Detector')
 
 # Sidebar with input widgets
 st.sidebar.header('User Input')
